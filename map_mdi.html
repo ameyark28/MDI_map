@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_586d8b807fda1b549035e53f3365a254 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_586d8b807fda1b549035e53f3365a254" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_586d8b807fda1b549035e53f3365a254 = L.map(
+                "map_586d8b807fda1b549035e53f3365a254",
+                {
+                    center: [42.151852594117656, -86.09297462678474],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 4,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e674fa5a8bdb6edee8ba67b536db2014 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var marker_8ee23e585660284793c5e95581c440f0 = L.marker(
+                [38.8950368, -77.0365427],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_f5e1bd76a5809698588aa537da471972 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_8ee23e585660284793c5e95581c440f0.setIcon(icon_f5e1bd76a5809698588aa537da471972);
+        
+    
+        var popup_b1e1421d42e13bf23e2819e2fcf3c188 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_744872e85de6b85871bf517d1fc54e03 = $(`<div id="html_744872e85de6b85871bf517d1fc54e03" style="width: 100.0%; height: 100.0%;">George Washington University<br><br>Program: M.A. in Interaction Design (IxD)<br><br>Total Tuition (in $): 68040</div>`)[0];
+                popup_b1e1421d42e13bf23e2819e2fcf3c188.setContent(html_744872e85de6b85871bf517d1fc54e03);
+            
+        
+
+        marker_8ee23e585660284793c5e95581c440f0.bindPopup(popup_b1e1421d42e13bf23e2819e2fcf3c188)
+        ;
+
+        
+    
+    
+            var marker_960fabfa81835af009d09d9c02895f1b = L.marker(
+                [38.9719384, -95.2359496],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_4f12ba9196b2af421fc00329cf5ea827 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_960fabfa81835af009d09d9c02895f1b.setIcon(icon_4f12ba9196b2af421fc00329cf5ea827);
+        
+    
+        var popup_a2dda392083905161e4b4834760ea188 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_290f15f8e17566366ad79bbf09f74a13 = $(`<div id="html_290f15f8e17566366ad79bbf09f74a13" style="width: 100.0%; height: 100.0%;">University of Kansas<br><br>Program: M.A. in Design with concentration in Interaction and User Experience Design<br><br>Total Tuition (in $): 31029</div>`)[0];
+                popup_a2dda392083905161e4b4834760ea188.setContent(html_290f15f8e17566366ad79bbf09f74a13);
+            
+        
+
+        marker_960fabfa81835af009d09d9c02895f1b.bindPopup(popup_a2dda392083905161e4b4834760ea188)
+        ;
+
+        
+    
+    
+            var marker_6124fef514c488f69d8c8ecaaa9402dd = L.marker(
+                [33.4151005, -111.8314552],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_506535dbe3a4c3646a44e83d00c7563c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6124fef514c488f69d8c8ecaaa9402dd.setIcon(icon_506535dbe3a4c3646a44e83d00c7563c);
+        
+    
+        var popup_fab5d14edcf8a9c871c4f9a4b89a50bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_84a281a28576e9999052024dcda1b2d2 = $(`<div id="html_84a281a28576e9999052024dcda1b2d2" style="width: 100.0%; height: 100.0%;">Arizona State Univerity<br><br>Program: M.S. in User Experience (UX)<br><br>Total Tuition (in $): 42000</div>`)[0];
+                popup_fab5d14edcf8a9c871c4f9a4b89a50bd.setContent(html_84a281a28576e9999052024dcda1b2d2);
+            
+        
+
+        marker_6124fef514c488f69d8c8ecaaa9402dd.bindPopup(popup_fab5d14edcf8a9c871c4f9a4b89a50bd)
+        ;
+
+        
+    
+    
+            var marker_bce49b9397e526971fc982393980667f = L.marker(
+                [40.4416941, -79.9900861],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_540145fdd75263280006ca1b43709f48 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_bce49b9397e526971fc982393980667f.setIcon(icon_540145fdd75263280006ca1b43709f48);
+        
+    
+        var popup_b6f5c081c7a9d7aae14f60816bffa292 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8f3ed9775102d472b222ed1435febda = $(`<div id="html_c8f3ed9775102d472b222ed1435febda" style="width: 100.0%; height: 100.0%;">Carnegie Mellon University<br><br>Program: Master of Design (MDes)<br><br>Total Tuition (in $): 84000</div>`)[0];
+                popup_b6f5c081c7a9d7aae14f60816bffa292.setContent(html_c8f3ed9775102d472b222ed1435febda);
+            
+        
+
+        marker_bce49b9397e526971fc982393980667f.bindPopup(popup_b6f5c081c7a9d7aae14f60816bffa292)
+        ;
+
+        
+    
+    
+            var marker_88a6ffccfa998b0ea548e58f7d24fe9b = L.marker(
+                [41.8755616, -87.6244212],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_9fd77300caf4834ec10c0e9c1500f733 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_88a6ffccfa998b0ea548e58f7d24fe9b.setIcon(icon_9fd77300caf4834ec10c0e9c1500f733);
+        
+    
+        var popup_942793f3ee44a8cfdec581ae53d99964 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f4516cd4aeec0e8deb2b794540dae38 = $(`<div id="html_4f4516cd4aeec0e8deb2b794540dae38" style="width: 100.0%; height: 100.0%;">Illinois Institute of Technology<br><br>Program: Master of Design (MDes)<br><br>Total Tuition (in $): 98004</div>`)[0];
+                popup_942793f3ee44a8cfdec581ae53d99964.setContent(html_4f4516cd4aeec0e8deb2b794540dae38);
+            
+        
+
+        marker_88a6ffccfa998b0ea548e58f7d24fe9b.bindPopup(popup_942793f3ee44a8cfdec581ae53d99964)
+        ;
+
+        
+    
+    
+            var marker_06a766024414aa0abb26ce14b02e5680 = L.marker(
+                [42.3750997, -71.1056157],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_3aed393a149e4e30266f0d2684d34611 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_06a766024414aa0abb26ce14b02e5680.setIcon(icon_3aed393a149e4e30266f0d2684d34611);
+        
+    
+        var popup_95c1bcac4fe7c36679b501d8959a84f7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_388f5efed9142431ad28eac318ad1669 = $(`<div id="html_388f5efed9142431ad28eac318ad1669" style="width: 100.0%; height: 100.0%;">Massachusetts Institute of Technology (MIT)<br><br>Program: Integrated Design & Management<br><br>Total Tuition (in $): 60000</div>`)[0];
+                popup_95c1bcac4fe7c36679b501d8959a84f7.setContent(html_388f5efed9142431ad28eac318ad1669);
+            
+        
+
+        marker_06a766024414aa0abb26ce14b02e5680.bindPopup(popup_95c1bcac4fe7c36679b501d8959a84f7)
+        ;
+
+        
+    
+    
+            var marker_fe8119cafde609bc085cb3e75c00d333 = L.marker(
+                [42.3554334, -71.060511],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_bc2ea5aa5420a9b1d70cb58d48c5be13 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_fe8119cafde609bc085cb3e75c00d333.setIcon(icon_bc2ea5aa5420a9b1d70cb58d48c5be13);
+        
+    
+        var popup_c3a787d563e81784b09ad88d711f340c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2eea0f6a8bde91d3a51c1d9e8f41abf = $(`<div id="html_f2eea0f6a8bde91d3a51c1d9e8f41abf" style="width: 100.0%; height: 100.0%;">Northeastern University<br><br>Program: M.S. in Experience Design<br><br>Total Tuition (in $): 53120</div>`)[0];
+                popup_c3a787d563e81784b09ad88d711f340c.setContent(html_f2eea0f6a8bde91d3a51c1d9e8f41abf);
+            
+        
+
+        marker_fe8119cafde609bc085cb3e75c00d333.bindPopup(popup_c3a787d563e81784b09ad88d711f340c)
+        ;
+
+        
+    
+    
+            var marker_cdc9b6841b291dbfe2fb9f744fde4602 = L.marker(
+                [42.0447388, -87.6930459],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_f271e604e5e4d1da70f7d00173b43525 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cdc9b6841b291dbfe2fb9f744fde4602.setIcon(icon_f271e604e5e4d1da70f7d00173b43525);
+        
+    
+        var popup_bb8890795db04ddfe3118a71a4026468 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb77ed3ccb879cc1ced91a8e365acc23 = $(`<div id="html_bb77ed3ccb879cc1ced91a8e365acc23" style="width: 100.0%; height: 100.0%;">Northwestern University_1<br><br>Program: M.S. in Engineering Design Innovation (EDI)<br><br>Total Tuition (in $): 78372</div>`)[0];
+                popup_bb8890795db04ddfe3118a71a4026468.setContent(html_bb77ed3ccb879cc1ced91a8e365acc23);
+            
+        
+
+        marker_cdc9b6841b291dbfe2fb9f744fde4602.bindPopup(popup_bb8890795db04ddfe3118a71a4026468)
+        ;
+
+        
+    
+    
+            var marker_78fba972668d82559854dcfe78283df1 = L.marker(
+                [42.0447388, -87.6930459],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_5b0c80d4146f6ea4bdf1a2cc6e33ad21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_78fba972668d82559854dcfe78283df1.setIcon(icon_5b0c80d4146f6ea4bdf1a2cc6e33ad21);
+        
+    
+        var popup_8435ebc6e66c2d7f397d6d64999a5ea3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_41023f5dd5e7473e5e2c59d2047d5635 = $(`<div id="html_41023f5dd5e7473e5e2c59d2047d5635" style="width: 100.0%; height: 100.0%;">Northwestern University_2<br><br>Program: Multidisciplinary MBA + MS Design Innovation (MMM)<br><br>Total Tuition (in $): 108000</div>`)[0];
+                popup_8435ebc6e66c2d7f397d6d64999a5ea3.setContent(html_41023f5dd5e7473e5e2c59d2047d5635);
+            
+        
+
+        marker_78fba972668d82559854dcfe78283df1.bindPopup(popup_8435ebc6e66c2d7f397d6d64999a5ea3)
+        ;
+
+        
+    
+    
+            var marker_ab913e07b683f8d01589fcd9eb64fa2c = L.marker(
+                [37.426540700000004, -122.17030545534064],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_9a27fd03f013ca48d6bb004f8f77d4a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_ab913e07b683f8d01589fcd9eb64fa2c.setIcon(icon_9a27fd03f013ca48d6bb004f8f77d4a1);
+        
+    
+        var popup_c44c8860c9bad4cca384d466fb01a718 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5292fb485fed9db3c8e76dcf06742406 = $(`<div id="html_5292fb485fed9db3c8e76dcf06742406" style="width: 100.0%; height: 100.0%;">Stanford University<br><br>Program: M.S. in Design Impact (DI)<br><br>Total Tuition (in $): 75240</div>`)[0];
+                popup_c44c8860c9bad4cca384d466fb01a718.setContent(html_5292fb485fed9db3c8e76dcf06742406);
+            
+        
+
+        marker_ab913e07b683f8d01589fcd9eb64fa2c.bindPopup(popup_c44c8860c9bad4cca384d466fb01a718)
+        ;
+
+        
+    
+    
+            var marker_acba3d3b1c4fa8e24865c0acb7ba09bb = L.marker(
+                [42.2681569, -83.7312291],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_51bfa6e99576713bcf977d13c0e84a56 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_acba3d3b1c4fa8e24865c0acb7ba09bb.setIcon(icon_51bfa6e99576713bcf977d13c0e84a56);
+        
+    
+        var popup_723add7371e7b28abcef8cf40f7d29f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dd9e078c1311eb8a14570e6357b11d9 = $(`<div id="html_2dd9e078c1311eb8a14570e6357b11d9" style="width: 100.0%; height: 100.0%;">University of Michigan<br><br>Program: Master of Design Science<br><br>Total Tuition (in $): 53178</div>`)[0];
+                popup_723add7371e7b28abcef8cf40f7d29f6.setContent(html_2dd9e078c1311eb8a14570e6357b11d9);
+            
+        
+
+        marker_acba3d3b1c4fa8e24865c0acb7ba09bb.bindPopup(popup_723add7371e7b28abcef8cf40f7d29f6)
+        ;
+
+        
+    
+    
+            var marker_65fd606801228017ee4340877657b362 = L.marker(
+                [42.3222599, -83.1763145],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_733f6afc49c8bc47402e7e9cd63e54cf = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_65fd606801228017ee4340877657b362.setIcon(icon_733f6afc49c8bc47402e7e9cd63e54cf);
+        
+    
+        var popup_c293f41509376fc599424083e687cad0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec03a12ae2aff186c3f3222a155e8d47 = $(`<div id="html_ec03a12ae2aff186c3f3222a155e8d47" style="width: 100.0%; height: 100.0%;">University of Michigan-Dearborn<br><br>Program: M.S. in Human Centered Design & Engineering (HCDE)<br><br>Total Tuition (in $): 26040</div>`)[0];
+                popup_c293f41509376fc599424083e687cad0.setContent(html_ec03a12ae2aff186c3f3222a155e8d47);
+            
+        
+
+        marker_65fd606801228017ee4340877657b362.bindPopup(popup_c293f41509376fc599424083e687cad0)
+        ;
+
+        
+    
+    
+            var marker_f84ba00be356b524c54abcdce1036b0c = L.marker(
+                [47.6038321, -122.330062],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_22ced72e5ba27910cbc255bb8793785f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f84ba00be356b524c54abcdce1036b0c.setIcon(icon_22ced72e5ba27910cbc255bb8793785f);
+        
+    
+        var popup_eda5a88f9f81057df6f8aab6029505a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a0e022ce19ce018553fc4391f50e32c = $(`<div id="html_5a0e022ce19ce018553fc4391f50e32c" style="width: 100.0%; height: 100.0%;">University of Washington_1<br><br>Program: Master of Human-Computer Interaction and Design (MHCID)<br><br>Total Tuition (in $): 52704</div>`)[0];
+                popup_eda5a88f9f81057df6f8aab6029505a8.setContent(html_5a0e022ce19ce018553fc4391f50e32c);
+            
+        
+
+        marker_f84ba00be356b524c54abcdce1036b0c.bindPopup(popup_eda5a88f9f81057df6f8aab6029505a8)
+        ;
+
+        
+    
+    
+            var marker_cec92331d648973107b5890ce3b046e4 = L.marker(
+                [47.6038321, -122.330062],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_41fcfa3f2e304cab1bedb57d2663ee5d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_cec92331d648973107b5890ce3b046e4.setIcon(icon_41fcfa3f2e304cab1bedb57d2663ee5d);
+        
+    
+        var popup_699d0f82a1125c56e9d658ea1436b2d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b734111c5ac8be418d2a16f92df091de = $(`<div id="html_b734111c5ac8be418d2a16f92df091de" style="width: 100.0%; height: 100.0%;">University of Washington_2<br><br>Program: M.S. in Human Centered Design & Engineering (HCDE)<br><br>Total Tuition (in $): 41280</div>`)[0];
+                popup_699d0f82a1125c56e9d658ea1436b2d8.setContent(html_b734111c5ac8be418d2a16f92df091de);
+            
+        
+
+        marker_cec92331d648973107b5890ce3b046e4.bindPopup(popup_699d0f82a1125c56e9d658ea1436b2d8)
+        ;
+
+        
+    
+    
+            var marker_06438add3e3124e077319d64d8706b1f = L.marker(
+                [43.074761, -89.3837613],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_7a717e302f674363182bd437cf632652 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_06438add3e3124e077319d64d8706b1f.setIcon(icon_7a717e302f674363182bd437cf632652);
+        
+    
+        var popup_fb89e0eb7d15e1fd224177242f470341 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9cbb1f457b2ffcadfeff012320f0a8a = $(`<div id="html_f9cbb1f457b2ffcadfeff012320f0a8a" style="width: 100.0%; height: 100.0%;">University of Wisconsin-Madison<br><br>Program: Master of Science in Design + Innovation<br><br>Total Tuition (in $): 48000</div>`)[0];
+                popup_fb89e0eb7d15e1fd224177242f470341.setContent(html_f9cbb1f457b2ffcadfeff012320f0a8a);
+            
+        
+
+        marker_06438add3e3124e077319d64d8706b1f.bindPopup(popup_fb89e0eb7d15e1fd224177242f470341)
+        ;
+
+        
+    
+    
+            var marker_d5b4d6b267d87f9851ba2f5f8aa053dd = L.marker(
+                [51.5073359, -0.12765],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_334f56e0ea15fa6b0340b61f8a4b923d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_d5b4d6b267d87f9851ba2f5f8aa053dd.setIcon(icon_334f56e0ea15fa6b0340b61f8a4b923d);
+        
+    
+        var popup_507570d19d7e5ab76d6cde1f84c7b50d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9be41602bc049d1b41e4f7f6707cad83 = $(`<div id="html_9be41602bc049d1b41e4f7f6707cad83" style="width: 100.0%; height: 100.0%;">Royal College of Arts<br><br>Program: Innovation Design Engineering (IDE)<br><br>Total Tuition (in $): 77478</div>`)[0];
+                popup_507570d19d7e5ab76d6cde1f84c7b50d.setContent(html_9be41602bc049d1b41e4f7f6707cad83);
+            
+        
+
+        marker_d5b4d6b267d87f9851ba2f5f8aa053dd.bindPopup(popup_507570d19d7e5ab76d6cde1f84c7b50d)
+        ;
+
+        
+    
+    
+            var marker_c051607d1bae1421efd5b32632e1cfcd = L.marker(
+                [42.3554334, -71.060511],
+                {}
+            ).addTo(map_586d8b807fda1b549035e53f3365a254);
+        
+    
+            var icon_c629aacf109aa855a4d54c6816cbafb5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_c051607d1bae1421efd5b32632e1cfcd.setIcon(icon_c629aacf109aa855a4d54c6816cbafb5);
+        
+    
+        var popup_b6c823c9e306d0355de19a1834634f23 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_52fbb9837f9b9b55bbc3306f0a501eeb = $(`<div id="html_52fbb9837f9b9b55bbc3306f0a501eeb" style="width: 100.0%; height: 100.0%;">Massachusetts College of Art and Design<br><br>Program: MDes Design Innovation<br><br>Total Tuition (in $): 79600</div>`)[0];
+                popup_b6c823c9e306d0355de19a1834634f23.setContent(html_52fbb9837f9b9b55bbc3306f0a501eeb);
+            
+        
+
+        marker_c051607d1bae1421efd5b32632e1cfcd.bindPopup(popup_b6c823c9e306d0355de19a1834634f23)
+        ;
+
+        
+    
+</script>
+</html>
